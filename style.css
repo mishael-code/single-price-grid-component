@@ -8,7 +8,7 @@ body {
 
 .header {
     margin: 7% 20%;
-    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
     border-radius: 5px;
 }
 
@@ -64,13 +64,13 @@ body {
     font-weight: 70;
 }
 
-.left-box > a > button {
+.left-box > button {
     background:  hsl(71, 73%, 48%);
     border: none;
     cursor: pointer;
-    color: #fff;
     font-size: 16px;
     font-weight: 400;
+    color: #fff;
     margin-top: 15px;
     width: 100%;
     height: 50px;
@@ -79,8 +79,9 @@ body {
     transition: all .1s ease-out;
 }
 
-.left-box > a > button:hover {
-    background:  hsl(71, 73%, 54%);
+.left-box > button:hover {
+    background:  hsl(71, 73%, 44%);
+    color: wheat;
 }
 
 /*rightbox*/
