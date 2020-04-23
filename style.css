@@ -1,127 +1,88 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: 'karla', sans-serif;
-    background: hsl(204, 43%, 93%);
+.banner{
+   background: url(img/beautiful-shiny-night-view-of-tokyo.jpg) no-repeat;
+   width:551px;
+   height:231px;
+}
+/*=Header*/
+header{
+   overflow: hidden;
+}
+header h1{
+    background: url(img/white.png)no-repeat;
+    text-indent: -9999px;
+    width:174px;
+    height:47px;
+    margin:10px 10px 22px ;
+   float: left;
+   
+}
+/*Nav*/
+
+nav{
+   float: right;
+   padding-top:12px;
+}
+nav li{
+   display: inline;
 }
 
-.header {
-    margin: 15% 20%;
-    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.2);
-    border-radius: 5px;
+.callout{
+   background:black;
+   height:231px;
+
 }
 
-#topcontent {
-    background: #fff;
-    padding: 50px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+nav a{
+   text-transform: lowercase;
 }
 
-#topcontent > h2 {
-    color: hsl(179, 62%, 43%);
-}
-
-#topcontent > h3 {
-    color: hsl(71, 73%, 54%);
-}
-
-#topcontent > p {
-    color: gray;
-    letter-spacing: 1px;
-}
-
-/*content*/
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: stretch;
-}
-
-/*leftbox*/
-.left-box {
-    flex-grow: 1;
-    flex-basis: 200px;
-    background: hsl(179, 62%, 43%);
-    padding: 20px 50px 30px 50px;
-    color: #fff;
-    border-bottom-left-radius: 5px;
-}
-
-.left-box  p {
-    color: lightgray;
-    letter-spacing: 2px;
-}
-
-.left-box > p > strong {
-    font-size: 2em;
-    color: #fff;
-}
-
-.left-box > h4{
-    color: hsl(204, 43%, 93%);
-    font-weight: 70;
-}
-
-.left-box > button {
-    background:  hsl(71, 73%, 48%);
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 400;
-    color: #fff;
-    margin-top: 15px;
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.3);
-    transition: all .1s ease-out;
-}
-
-.left-box > button:hover {
-    background:  hsl(71, 73%, 44%);
-    color: wheat;
-}
-
-/*rightbox*/
-.right-box {
-    flex-grow: 1;
-    flex-basis: 200px;
-    background: hsl(179, 53%, 51%);
-    padding: 20px 50px 30px 50px;
-    color: #ffffff;
-    border-bottom-right-radius: 5px;
-}
-
-.fchild {
-    padding-top: 20px;
-}
-
-.right-box p {
-    line-height: 10px;
+/*main*/
+.main{
+   margin-top:20px;
 }
 
 /*footer*/
-footer {
-    text-align: center;
+footer{
+   clear: both; 
 }
 
+/*miscellaneous*/
 
-/*media query*/
-@media only screen and (max-width: 600px) {
-    .header{
-        margin: 20% 10%;
-    }
-    #topcontent {
-        padding: 10px 20px 20px 20px;
-    }
-    .left-box {
-        padding: 10px 20px 25px 20px;
-        border-radius: 0;
-    }
-    .right-box {
-        padding: 10px 20px 20px 20px;
-        border-bottom-left-radius: 5px;
-    }
+ .container{
+       margin-top: 10px;
+ }
+p{
+   font-size:13px;
+   line-height:20px;
+   color:#353535;
 }
+
+h1,h2{
+   letter-spacing:-1px;
+}
+h2{
+   font-size:24px;
+   text-transform: lowercase;
+   border-bottom: 1px solid #d1d1d1 ;
+   padding-bottom:30px ;
+}
+a{
+   color:#7e7e7e;
+   text-decoration:none;
+}
+a:hover,.selected{
+   color:black;
+   
+}
+
+li{
+   margin-left:24px;
+}
+
+.botton{
+  background:  #242324;
+  padding: 6px;
+}
+
+.botton:hover{color:white;}
+

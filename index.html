@@ -1,56 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-
-  <title>Frontend Mentor | Single Price Grid Component</title>
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="960_24_col.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>learning</title>
 </head>
-
 <body>
-  <section>
-    <div class="header">
-        <div id="topcontent">
-           <h2>Join our community</h2>
-           <h3>30-day, hassle-free money back guarantee</h3>
-           <p>Gain access to our full library of tutorials along with expert code reviews.
-           Perfect for any developers who are serious about honing their skills.</p>
-        </div>
-      <div class="flex">
-        <div class="left-box">
-            <h3>Monthly Subscription</h3>
-            <p><strong>&dollar;29</strong> per month</p>
-            <h4>Full access for less than &dollar;1 a day</h4>
-            <button id="signup" onclick="document.location = 'https://www.google.com/'">Sign Up</button>
-        </div>
-        <div class="right-box">
-          <h3>Why Us</h3>
-          <p class="fchild">Tutorials by industry experts</p>
-          <p>Peer &amp; expert code review</p>
-          <p>Coding exercises</p>
-          <p>Access to our GitHub repos</p>
-          <p>Community forum</p>
-          <p>Flashcard decks</p>
-          <p>New videos every week</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Aldo Rianto</a>.
-    </p>
-  </footer>
-</body>
+  <div class="container_24">
+       <header>
+          <h1>Black+White</h1>
+          <nav>
+              <ul>
+                  <li><a href="#"class="selected">Home</a></li>
+                  <li><a href="#">Our Service</a></li>
+                  <li><a href="#">How We Work</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Work Example</a></li>
+              </ul>
+          </nav>
 
+          <div class="banner grid_14">
+              <p>
+                Some slick phrase would go in here to sum up what the business
+                actually does and stands for.
+              </p>
+          </div>
+          <div class="grid_4 callout"></div>
+      </header>
+    <div class="main">
+        <div class="grid_9">
+            <h2>Services We Offer</h2>
+            <p>Donec odio arcu, faucibus vel, accumsan eu, cursus in, ipsum.
+                    Pellentesque blandit condimentum purus. Suspendisse commodo dui.
+                    </p>
+                    <p>Quisque a tellus. vestibulum tincidunt lorem ac est. Vivamus augue
+                    quam, hendrerit at, porta ut,tristique ac, lacus. Lorem ipsum dolor
+                    sit amet,consectetuer adipiscing elit. Curabitur fringilla eros
+                    ultrices justo. Nunc condimentum. Ut id dui in erat vulputate
+                    ultrices.
+                </p>
+            <p><a href="#"class="botton">Read More</a></p>
+        </div>
+        <div class="grid_9">
+            <h2>How We work</h2>
+            <p>Donec odio arcu, faucibus vel, accumsan eu, cursus in, ipsum.
+            Pellentesque blandit condimentum purus. Suspendisse commodo dui.
+            </p>
+            <p>Quisque a tellus. vestibulum tincidunt lorem ac est. Vivamus augue
+            quam, hendrerit at, porta ut,tristique ac, lacus. Lorem ipsum dolor
+            sit amet,consectetuer adipiscing elit. Curabitur fringilla eros
+            ultrices justo. Nunc condimentum. Ut id dui in erat vulputate
+            ultrices.
+        </p>
+        <p>
+     Cras orci odio, consequat vel, venenatis id, mollis a, lorem. Ut commodo
+     accumsan sapien.
+        </p>
+            <p><a href="#"class="botton">Read More</a></p> 
+        </div>
+    </div>
+    <div class="grid_6">
+        <blockquote>
+            <p>Clean,elegant typography
+              matched with sharp lines
+              and precise spacing leads
+              to a professional look
+              and feel.</p>
+        </blockquote>
+    </div>
+     <footer>
+         <p><b>black=white</b> themes via <a href="http:themeforest.net">themeforest</a></p>
+     </footer>
+    </div><!--end container-->
+</body>
 </html>
